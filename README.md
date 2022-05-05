@@ -1,1 +1,1 @@
-# studious-potato
+Basic personal website
