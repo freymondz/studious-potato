@@ -3,6 +3,10 @@
   color: white;
 }
 
+.font-gray {
+  color: gray;
+}
+
 .flex {
   display: flex;
 }
@@ -11,10 +15,21 @@
   flex-flow: column;
 }
 
+.row {
+  flex-flow: row;
+}
+
+.center {
+  justify-content: center;
+}
+
+.background-color {
+  background-color: #0c1821;
+}
+
 .button {
   border: 0.15rem solid white;
-  border-radius: 8px;
-  margin: 1rem;
+  margin: 1.5rem 1rem;
 }
 
 .button:hover,
@@ -23,9 +38,7 @@
 }
 
 .button-link {
-  display: inline-block;
   padding: 1rem;
-  text-decoration: none;
 }
 
 /* CSS BODY */
@@ -34,35 +47,33 @@ body {
   margin: 0;
 }
 
-body,
-header {
-  width: 100%;
-}
-
-header {
-  background-color: #0c1821;
-}
-
 .logo {
   font-size: 10rem;
-  font-weight: 300;
-  margin: auto;
-  margin-bottom: 2rem;
-}
-
-.social {
-  justify-content: center;
+  font-weight: lighter;
+  margin-bottom: 1rem;
 }
 
 main {
   padding: 2rem;
 }
 
-footer {
-  background-color: #0c1821;
+footer div {
+  margin: 0.5rem;
+  font-size: small;
 }
 
-footer p {
-  margin-left: 1rem;
-  color: gray;
+footer div:last-child {
+  margin-left: auto;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+}
+
+a {
+  font-weight: bold;
+  align-items: center;
+  text-decoration: none;
 }
