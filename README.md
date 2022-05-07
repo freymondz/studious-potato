@@ -1,1 +1,1 @@
-Basic personal website
+A basic personal website for talking about who I am and what I am interested in. For now it's just going to be built with HTML and CSS. Might switch to using TailWind CSS and creating a build pipeline from that. My current plan is to slowly flesh out the website overtime and see what I want to add to it.
