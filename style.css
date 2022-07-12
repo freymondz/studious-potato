@@ -42,8 +42,10 @@
 }
 
 /* CSS BODY */
-html, body {
-  height: 100%;
+html,
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
 body {
